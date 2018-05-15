@@ -24,7 +24,7 @@ def IEEE_754(upper, lower):
 
 
 try:
-    c = ModbusClient(host="192.168.1.126", port=502)
+    c = ModbusClient(host="75.149.4.70", port=502)
 
 except ValueError:
     print "Error with host or port params"
